@@ -1,0 +1,39 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>
+	<h1>Open new Account</h1>
+
+	<div>
+		<form action="newAccount" method="POST">
+			<div>
+				your name: <input type="text" name="name" />
+			</div>
+			<div>
+				second name: <input type="text" name="secondName" />
+			</div>
+			<div>
+				last name: <input type="text" name="lastName" />
+			</div>
+			<div>
+				email: <input type="email" name="email" />
+			</div>
+			<div>
+				password: <input type="password" name="pass" />
+			</div>
+			<div>
+				phone: <input type="tel" name="phone" />
+			</div>
+			<div>
+				company name: <input type="text" name="company" />
+			</div>
+			<div>
+				<input type="button" value="submit" />
+			</div>
+		</form>
+	</div>
+</body>
+</html>

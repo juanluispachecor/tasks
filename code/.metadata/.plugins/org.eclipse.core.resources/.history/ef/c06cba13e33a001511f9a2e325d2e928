@@ -1,0 +1,29 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>
+	<h1>Open new Account</h1>
+
+	<P>
+	<form action="newAccount" method="POST">
+
+			<input type="text" name="name"/>
+
+			<input type="text" name="secondName"/>
+
+			<input type="text" name="lastName"/>
+
+			<input type="email" name="email"/>
+
+			<input type="password" name="pass"/>
+
+			<input type="tel" name="phone"/>
+			<input type="text" name="company"/>
+
+	</form>
+	</P>
+</body>
+</html>

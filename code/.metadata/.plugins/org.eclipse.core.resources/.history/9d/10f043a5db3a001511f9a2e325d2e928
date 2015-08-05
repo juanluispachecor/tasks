@@ -1,0 +1,5 @@
+package org.up.ahitask.entities;
+
+public class Company {
+
+}

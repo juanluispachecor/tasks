@@ -1,0 +1,11 @@
+package org.up.ahitask.DAO;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+
+public interface UserDAO {
+	public abstract int saveNewUser(User user);
+	
+
+}
